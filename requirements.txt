@@ -1,0 +1,12 @@
+certifi==2018.8.24
+chardet==3.0.4
+DateTime==4.2
+enum34==1.1.6
+idna==2.7
+pytz==2018.5
+requests==2.19.1
+six==1.11.0
+urllib3==1.23
+vk-api==11.1.0
+xlrd==1.1.0
+zope.interface==4.5.0
