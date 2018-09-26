@@ -43,7 +43,7 @@ def main():
                 botT.get_timetable2()
                 alfa = botT.get_book('11а')
                 vk.messages.send(user_id=event.user_id,message='v1.1 VK_REBORN\nВсе права принадлежат тому, кому принадлежат.\nЧто пишет на доске гуманитарий, когда его вызывают на задачу по физике?\nНе дано',keyboard=keyboard.get_keyboard())
-            if event.text=='Начать':
+            if (event.text=='Начать')or(event.text=='Start'):
                 vk.messages.send(user_id=event.user_id,message='Бот был разработан для 11А.Вопросы пишите куда нибудь.',keyboard=keyboard.get_keyboard())
             print()
 
