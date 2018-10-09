@@ -81,3 +81,4 @@ def get_real_date():
     ll = (datetime.now()+timedelta(days=1)).strftime("%d%m%y")
     day = int(ll[0]+ll[1])
     return(day)
+    
