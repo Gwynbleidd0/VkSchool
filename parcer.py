@@ -35,7 +35,7 @@ def get_url():
     return(hg)
 #print(get_url())
 
-print(get_url())
+
 #print(Selector(r.text).css('.at_icon').extract())
 #Links = r.html.absolute_links
 #for i in Links:
